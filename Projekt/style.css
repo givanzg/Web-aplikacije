@@ -1,0 +1,140 @@
+.banner{
+    background-image: url("images/banner.jpg");
+	background-position: center;
+    height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: yellowgreen;
+}
+.nav li {
+    float: left;
+    margin-left: 130px;
+    margin-right: 130px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nav li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    text-align: center;
+}
+.nav li:hover {
+    background-color: lightblue;
+}
+.foot img {
+    width: 24px;
+    margin-top: 6px;
+}
+.foot {
+    font-weight: bold;
+}
+.copy img {
+    width: 24px;
+}
+.copy {
+    text-align: center;
+    overflow: hidden;
+    background-color: lightblue;
+}
+input[type=text], input[type=email], select, textarea {
+    width: 30%;
+    padding: 12px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+.voce figure {
+    margin-left: 0%;
+    float: left;
+    margin-right: 10px;
+}
+.voce figcaption {
+    text-align: center;
+    font-weight: bold;
+}
+.tekst h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: lightsteelblue;
+    margin-top: 0%;
+}
+.tekst h4 {
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightcoral;
+    text-align: center;
+}
+.tekst p, li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.naslov {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(127, 201, 197);
+    margin-top: 1%;
+    text-align: center;
+}
+.skraceno img {
+    float: left;
+    padding: 8px;
+    width: 15%;
+}
+.skraceno h3, p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.skraceno a {
+    text-decoration: none;
+    color: black;
+}
+.skraceno a:hover {
+    color: green;
+}
+#prvo {
+    background-color: yellowgreen;
+    margin: 0;
+    text-align: center;
+}
+.centar video {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centar p {
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.centar h4 {
+    text-align: center;
+}
+.centar img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.centar figcaption {
+    text-align: center;
+}
+.naslovna img {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.naslovna p {
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 15%;
+}
